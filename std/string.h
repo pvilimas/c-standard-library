@@ -9,7 +9,7 @@
 
 typedef const char* string;
 
-#define str(cstr) \
+#define str(lit) \
 
 
 #endif // STD_STRING_H
