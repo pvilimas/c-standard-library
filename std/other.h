@@ -15,8 +15,7 @@
             file_name = (!!file_name)
                 ? file_name + 1
                 : __FILE__;
-            printf("assertion '%s' failed @ %s:%d\n",
-                #condition,
+            printf("assertion '%s' failed @ %s:%d\n", #condition,
                 file_name,
                 __LINE__);
             printf("\terrmsg: '%s'\n", (errmsg));
